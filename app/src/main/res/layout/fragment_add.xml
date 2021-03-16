@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddFragment">
+
+
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Something"
+        android:id="@+id/tv_Add"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="write something"
+        android:id="@+id/et_Add"
+        android:textSize="16sp"/>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:textSize="20dp"
+        android:id="@+id/btn_Ok"/>
+
+   <LinearLayout
+       android:id="@+id/product"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Add Product"
+           android:id="@+id/tv_AddProduct"
+           android:textSize="16sp"/>
+
+
+       <Spinner
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/spinner"/>
+
+       <EditText
+           android:layout_marginHorizontal="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Product_name"
+           android:id="@+id/et_Product_name"
+           android:textSize="16sp"/>
+
+       <EditText
+           android:layout_marginHorizontal="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Image url"
+           android:id="@+id/et_Img_url"
+           android:textSize="16sp"/>
+
+
+       <Button
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Done"
+           android:textSize="20dp"
+           android:id="@+id/btn_Done"/>
+
+
+   </LinearLayout>
+
+
+</LinearLayout>
